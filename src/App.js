@@ -34,7 +34,8 @@ const MinusOne = props =>
 
 const Counter = props =>
 {
-  const [ count, setCount ] = useState( messageService.value );
+  // Initial value will come later
+  const [ count, setCount ] = useState();
 
   /**
    * Subscribe to the stream
