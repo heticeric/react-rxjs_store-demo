@@ -1,8 +1,6 @@
 import { BehaviorSubject } from "rxjs";
 
 const subject$ = new BehaviorSubject( 1 );
-// Initial value
-subject$.next( 0 );
 
 /**
  * This service emits all the values
